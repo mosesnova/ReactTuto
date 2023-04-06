@@ -49,7 +49,7 @@ export class FetchEmployee extends Component {
         });
 
     }
-
+    
 
     //handleDeleteOpenModal(member) {
     //    this.setState({
@@ -152,7 +152,7 @@ export class FetchEmployee extends Component {
         });
 
     }
-
+    
     render() {
         return (<div><h1>Fetch Customer</h1>
             <Link to="/AddCustomer">AddCustomer</Link>
