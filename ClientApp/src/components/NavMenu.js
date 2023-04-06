@@ -44,6 +44,9 @@ export class NavMenu extends Component {
                         <NavItem>
                             <NavLink tag={Link} className="text-dark" to="/FetchCounter">Fetch Counter</NavLink>
                         </NavItem>
+                        <NavItem>
+                            <NavLink tag={Link} className="text-dark" to="/FetchWatch">Fetch Watch</NavLink>
+                        </NavItem>
             </ul>
           </Collapse>
         </Navbar>

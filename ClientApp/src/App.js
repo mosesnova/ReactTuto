@@ -7,7 +7,7 @@ import './custom.css';
 import { FetchEmployee } from './components/Employee/FetchEmployee';
 //eslint-disable-next-line
 import { FetchCounter } from './components/Employee/FetchCounter';
-
+import { FetchWatch } from './components/Employee/FetchWatch';
 
 export default class App extends Component {
   static displayName = App.name;
@@ -24,7 +24,7 @@ export default class App extends Component {
           })}
                 <Route path='/FetchEmployee' element={<FetchEmployee />} />
                 <Route path='/FetchCounter' element={<FetchCounter />} />
-               
+                <Route path='/FetchWatch' element={<FetchWatch />} />
                 </Routes>
                 
       </Layout>
